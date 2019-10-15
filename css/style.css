@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Livvic', sans-serif;
+}
+
+.banner {
+    background-image: url("../img/bunner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    text-align: center;
+}
+
+.texto h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.texto p {
+    margin-bottom: 70px;
+    color: white;
+    font-size: 25px;
+}
+
+.texto a {
+    background-color: white;
+    color: #826994;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+/*SEGUNDA PARTE*/
+
+.sobre-mim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.sobre-mim-descricao {
+    width: 465px;
+    padding-right: 60px;
+}
+
+.sobre-mim-descricao h2 {
+    font-size: 30px;
+    color: grey;
+}
+
+.sobre-mim-descricao a {
+    background-color: white;
+    color: #826994;
+    border: 1px solid #826994;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.sobre-mim-lista {
+    margin-top: 30px;
+    }
+
+.sobre-mim-lista_titulo {
+    font-size: 20px;
+    color: grey;
+}
+
+.sobre-mim-lista_topicos {
+    padding-left: 20px;
+    line-height: 20px;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+}
+
+.rede-social-especifica {
+    background-color: #826994;
+    color: white;
+    padding: 50px 40px;
+    margin: 20px;
+}
+
+.rede-social-especifica a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #dcdcdc;
+    text-align: center;
+    padding: 20px;
+    margin-top: 35px;
+  }
+
